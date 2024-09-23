@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Heading, SimpleGrid, VStack, Box, Text, Image } from "@chakra-ui/react";
+import { Avatar, Heading, SimpleGrid, VStack, Box, Text, Image, Button } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import summy from "../images/Summy.jpg"
 
@@ -36,7 +36,7 @@ const LandingSection = () => (
         size={{base : '2xl',xl:'2xl','2xl':'2xl'}}
         /> */}
       <Image 
-      src="https://media.licdn.com/dms/image/D5603AQFspU7XsdnW9A/profile-displayphoto-shrink_800_800/0/1665945380320?e=1699488000&v=beta&t=TCTEGUpnfmPv-kkmnAcidiYqqBdfjITuZc7QylmeLb4"
+      src={summy}
       borderRadius='full'
       boxSize={{base : '150px',xl:'300px','2xl':'300px'}}
       />

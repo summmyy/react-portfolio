@@ -62,7 +62,7 @@ const Header = () => {
   }; 
   return ( 
     <Box 
-      position="fixed" 
+      // position="fixed" 
       top={0} 
       left={0} 
       right={0} 
@@ -82,8 +82,8 @@ const Header = () => {
         > 
           <nav> 
             <HStack spacing={8} width='50vw'> 
-              {socials.map(({ icon, url }) => ( 
-                <a 
+              {socials.map(({ icon, url }) => (
+                <a
                   key={url} 
                   href={url} 
                   target="_blank" 
@@ -96,11 +96,17 @@ const Header = () => {
           </nav> 
           <nav> 
             <HStack spacing={8} width='50vw'> 
-              <a href="#projects" onClick={handleClick("projects")}> 
+              <a href="/projects" > 
                 Projects 
               </a> 
-              <a href="#contactme" onClick={handleClick("contactme")}> 
+              <a href="/contact" > 
                 Contact Me 
+              </a> 
+              <a href="/services" > 
+                Services 
+              </a> 
+              <a href="/about" > 
+                About 
               </a> 
             </HStack> 
           </nav> 

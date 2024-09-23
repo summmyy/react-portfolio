@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as ReactDOM from 'react-dom/client'
 import { createStandaloneToast } from '@chakra-ui/toast'
+import { BrowserRouter } from 'react-router-dom'
 
 const { ToastContainer, toast } = createStandaloneToast()
 
