@@ -9,26 +9,26 @@ const services = [
     title: "General Programming",
     description:
       "I help with general programming tasks, from debugging to writing code from scratch. ",
-    getImageSrc: "src/images/restaurant.jpg", 
+    getImageSrc: "src/images/general_programming.avif", 
   },
   {
     title: "Web Development",
     description:
       "I build beautiful websites and web applications that are responsive and user-friendly.",
-    getImageSrc: "src/images/PennyPal.jpg",
+    getImageSrc: "src/images/web_dev.jpg",
 
   },
   {
     title: "Algorithm Design",
     description:
       "I help with algorithm design and implementation, from simple to complex problems.",
-    getImageSrc: "src/images/DFG.jpeg",
+    getImageSrc: "src/images/algo_design.png",
   },
   {
     title: "Automation",
     description:
       "I help with automating tasks, from web scraping to creating bots.",
-    getImageSrc: "src/images/photo1.jpg",
+    getImageSrc: "src/images/Automation.jpg",
   },
 ];
 

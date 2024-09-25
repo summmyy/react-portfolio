@@ -7,7 +7,7 @@ import {
   faMedium,
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
-import { Box, HStack } from "@chakra-ui/react";
+import { Box, HStack, Text } from "@chakra-ui/react";
 
 const socials = [
   {
@@ -75,13 +75,14 @@ const Header = () => {
     > 
       <Box color="white" maxWidth={{base : '100vw','2xl':"1280px"}} > 
         <HStack 
-          px={{base : 1.5,xl : 72,'2xl' : 72}} 
+          px={{base : 1.5,xl : 110,'2xl' : 72}} 
           py={4} 
-          justifyContent={{'2xl' : "space-between" }}
+          justifyContent={{xl: "space-between",'2xl' : "space-between" }}
           alignItems="center" 
         > 
           <nav> 
-            <HStack spacing={8} width='50vw'> 
+            <HStack spacing={8} width='30vw'> 
+            <Text fontSize="2xl" fontWeight="bold"> <a href="/"> Sunmi Oye </a></Text>
               {socials.map(({ icon, url }) => (
                 <a
                   key={url} 
@@ -95,7 +96,11 @@ const Header = () => {
             </HStack> 
           </nav> 
           <nav> 
-            <HStack spacing={8} width='50vw'> 
+            <HStack 
+            spacing={8} 
+            width='100vw'
+            px={{base : 1.5,xl : 450,'2xl' : 72}}
+            > 
               <a href="/projects" > 
                 Projects 
               </a> 
