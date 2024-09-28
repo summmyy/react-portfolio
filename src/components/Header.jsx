@@ -8,6 +8,8 @@ import {
   faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack, Text } from "@chakra-ui/react";
+import { Link as ChakraLink } from "@chakra-ui/react";
+import { Link as ReactRouterLink } from "react-router-dom";
 
 const socials = [
   {
@@ -101,7 +103,24 @@ const Header = () => {
             width='100vw'
             px={{base : 1.5,xl : 450,'2xl' : 72}}
             > 
-              <a href="/projects" > 
+
+              <ChakraLink as={ReactRouterLink} to = '/projects' >
+                <Text fontSize='xl'  _hover={{ cursor : 'pointer'}} >  Projects </Text>
+              </ChakraLink>
+
+              <ChakraLink as={ReactRouterLink} to = '/contact' >
+                <Text fontSize='xl'  _hover={{ cursor : 'pointer'}} >  Contact </Text>
+              </ChakraLink>
+
+              <ChakraLink as={ReactRouterLink} to = '/services' >
+                <Text fontSize='xl'  _hover={{ cursor : 'pointer'}} >  Services </Text>
+              </ChakraLink>
+
+              <ChakraLink as={ReactRouterLink} to = '/about' >
+                <Text fontSize='xl' _hover={{ cursor : 'pointer'}} >  About </Text>
+              </ChakraLink>
+
+              {/* <a href="/projects" > 
                 Projects 
               </a> 
               <a href="/contact" > 
@@ -112,7 +131,7 @@ const Header = () => {
               </a> 
               <a href="/about" > 
                 About 
-              </a> 
+              </a>  */}
             </HStack> 
           </nav> 
         </HStack> 
