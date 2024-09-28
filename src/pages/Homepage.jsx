@@ -9,6 +9,11 @@ import { Box,
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import project from "../images/projects_img.jpeg";
+import services from "../images/services_img.jpeg";
+import contact from "../images/contact_img.jpeg";
+import aboutMe from "../images/aboutMe_img.jpeg";
+import { useNavigate as navigate } from "react-router-dom";
 
 
 const pages = [
@@ -16,29 +21,29 @@ const pages = [
     title: "Projects",
     description:
       "Come check out some of the projects I've worked on. From websites to web applications, I've done it all.",
-    getImageSrc: "src/images/projects_img.jpeg", 
-    link: () => window.location.href = '/projects'
+    getImageSrc: project, 
+    link: () => navigate('/projects')
   },
   {
     title: "Services",
     description:
       "I build beautiful websites and web applications that are responsive and user-friendly. I also help with general programming tasks, from debugging to writing code from scratch.",
-    getImageSrc: "src/images/services_img.jpeg",
-    link: () => window.location.href = '/services'
+    getImageSrc: services,
+    link: () => navigate('/services')
   },
   {
     title: "Contact",
     description:
       "Feel free to reach out to me for any inquiries or collaborations. I'm always open to new opportunities.",
-    getImageSrc: "src/images/contact_img.jpeg",
-    link: () => window.location.href = '/contact'
+    getImageSrc: contact,
+    link: () => navigate('/contact')
   },
   {
     title: "About Me",
     description:
       "Learn more about me and my journey. Uncover the story behind the code and the person behind the screen.",
-    getImageSrc: "src/images/aboutMe_img.jpeg",
-    link: () => window.location.href = '/about'
+    getImageSrc: aboutMe,
+    link: () => navigate('/about')
   },
 ];
 

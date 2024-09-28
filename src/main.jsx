@@ -7,6 +7,7 @@ import * as ReactDOM from 'react-dom/client'
 import { createStandaloneToast } from '@chakra-ui/toast'
 import { BrowserRouter } from 'react-router-dom'
 
+
 const { ToastContainer, toast } = createStandaloneToast()
 
 // render the ToastContainer in your React root
