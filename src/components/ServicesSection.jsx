@@ -2,6 +2,10 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import Card from "./Card";
+import general_programming from "../images/general_programming.avif";
+import web_dev from "../images/web_dev.jpg";
+import algo_design from "../images/algo_design.png";
+import Automation from "../images/Automation.jpg";
 
 
 const services = [
@@ -9,26 +13,26 @@ const services = [
     title: "General Programming",
     description:
       "I help with general programming tasks, from debugging to writing code from scratch. ",
-    getImageSrc: "src/images/general_programming.avif", 
+    getImageSrc: general_programming, 
   },
   {
     title: "Web Development",
     description:
       "I build beautiful websites and web applications that are responsive and user-friendly.",
-    getImageSrc: "src/images/web_dev.jpg",
+    getImageSrc: web_dev,
 
   },
   {
     title: "Algorithm Design",
     description:
       "I help with algorithm design and implementation, from simple to complex problems.",
-    getImageSrc: "src/images/algo_design.png",
+    getImageSrc: algo_design,
   },
   {
     title: "Automation",
     description:
       "I help with automating tasks, from web scraping to creating bots.",
-    getImageSrc: "src/images/Automation.jpg",
+    getImageSrc: Automation,
   },
 ];
 
