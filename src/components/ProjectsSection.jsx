@@ -1,11 +1,11 @@
 import React from "react";
 import FullScreenSection from "./FullScreenSection";
-import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
+import {  Heading, SimpleGrid } from "@chakra-ui/react";
 import Card from "./Card";
 import restaurant from "../images/restaurant.jpg";
 import pennypal from "../images/pennypal.jpg";
-import dfg from "../images/dfg.jpg";
-import billpayingbot from "../images/billpayingbot.jpg";
+import dfg from "../images/dfg.jpeg";
+import billpayingbot from "../images/photo1.jpg";
 
 
 const projects = [
