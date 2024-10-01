@@ -3,8 +3,8 @@ import FullScreenSection from "./FullScreenSection";
 import {  Heading, SimpleGrid } from "@chakra-ui/react";
 import Card from "./Card";
 import restaurant from "../images/restaurant.jpg";
-import pennypal from "../images/pennypal.jpg";
-import dfg from "../images/dfg.jpeg";
+import pennypal from "../images/PennyPal.jpg";
+import dfg from "../images/DFG.jpeg";
 import billpayingbot from "../images/photo1.jpg";
 
 
